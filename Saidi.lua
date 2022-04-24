@@ -10049,6 +10049,35 @@ keyboard.inline_keyboard = {
 }
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+elseif text == 'ريبورتر' or text == 'تيم ريبورتر' or text == 'تيم' or text == 'التيم' then
+photo = "https://t.me/sorcy/6"
+local Name = 'تيم ريبورتر ياحب اعظم تيم في التلي تنورنا في اي وقت'
+keyboard = {} 
+keyboard.inline_keyboard = {
+{
+{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ¹•', url = "https://t.me/ttccss"}
+},
+{
+{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ²•', url = "https://t.me/Snp_Zmlkawe"},{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ³•', url = "https://t.me/EL_ME_RE_KH_Y9"}
+},
+{
+{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ¹•', url = "https://t.me/bent_Saidi"}
+},
+{
+{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ²•', url = "https://t.me/bent_ti_mo"},{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ³•', url = "https://t.me/bent_dad_Saidi"}
+},
+{
+{text = '•ʙᴏᴛ ᴛᴇᴀᴍ•', url = "https://t.me/Saidi8BOT"}
+},
+{
+{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝙍𝙀𝘽𝙊𝙍𝙏𝙀𝙍 •', url = "https://t.me/postat_selva"}
+},
+{
+{text = '•™ʽ𝑻 𝑺ᯓ𝑺𝑬𝑳𝑽𝑨✓⃟🎌๏͈͈͈͈͈͈͈⌯•', url = "https://t.me/br_selva"}
+},
+}
+local msgg = msg_id/2097152/0.5
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 elseif text == 'الاوامر' then
 if not msg.Addictive then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* 𖤓 هاذا الامر يخص ❴ '..Controller_Num(7)..' ❵* ',"md",true)  
@@ -13926,13 +13955,13 @@ keyboard.inline_keyboard = {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '⟪ ᗪᗴᐯ ᗰᗩᘜᗴᗪ ⟫', url = "https://t.me/vpllqr"}
+{text = ' ❬ ᗪᗴᐯ ᗰᗩᘜᗴᗪ ❭', url = "https://t.me/vpllqr"},{text = '•بــوت تـــواصــل•', url = "https://Twmegzzbot"}
 },
 {
-{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"}
+{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"},{text = '•شروحات السورس•', url = "https://t.me/MEG0OL"}
 },
 {
-{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"}
+{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"},{text = '•بوت السورس•', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
