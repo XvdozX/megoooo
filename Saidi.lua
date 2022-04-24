@@ -1128,7 +1128,7 @@ for k,v in pairs(msg.content.member_user_ids) do
 local Info_User = LuaTele.getUser(v) 
 print(v)
 if v == tonumber(Saidi) then
-local N = (Redis:get(Saidi.."Name:Bot") or "ريبورتر")
+local N = (Redis:get(Saidi.."Name:Bot") or "مجيزز")
 photo = LuaTele.getUserProfilePhotos(Saidi)
 local bot = '* ╗ مـرحـبــا انا بــوت '..N..'\n╣ اخـتصـاصـي  ادارة الجـروبــات\n╣ مـن السـب والشـتيمـه والابــاحـه\n╣ لتفعيل البــوت اتبــاع الخـطـوات\n╣❶ ارفع البــوت مـشـرف في مـجـمـوعه\n╣ وارسـل تفعيل في مـجـمـوعه\n╣❷ لو ارت تفعيل ردود السـورس\n╣ اكتب تفعيل ردود السـورس\n╝ مـطـور الـبــوت • @'..UserSudo..' •\n*'
 if photo.total_count > 0 then
@@ -9796,7 +9796,7 @@ keyboardd.inline_keyboard = {
 {text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
 },
 {
-{text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Saidi8Bot"}
+{text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Twmegzzbot"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9812,7 +9812,7 @@ keyboardd.inline_keyboard = {
 {text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
 },
 {
-{text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Saidi8Bot"}
+{text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Twmegzzbot"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9974,12 +9974,12 @@ local rep = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_chat_id.."&caption="..URL.escape(t).."&photo="..m.."&reply_to_message_id="..rep.."&parse_mode=Markdown")
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-local Mostafa = (Redis:get(Saidi.."Name:Bot") or "ريبورتر")
+local Mostafa = (Redis:get(Saidi.."Name:Bot") or "مجيزز")
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 local RinkBot = msg.Name_Controller
-photo = "https://t.me/oooopppmmm/2"
-local Text = '*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n❤️┏ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧\n     ┊\n❤️┣ • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢\n     ┊\n❤️┗ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n*'
+photo = "https://t.me/gopmcerhh/2"
+local Text = '*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n❤️┏ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯\n     ┊\n❤️┣ • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢\n     ┊\n❤️┗ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n*'
 keyboardd = {} 
 keyboard.inline_keyboard = {
 {
@@ -9990,7 +9990,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msg_id = msg.id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/oooopppmmm/2/'..photo..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/gopmcerhh/2/'..photo..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'بوت حذف' or text == 'بوت الحذف' or text == 'بووت حذف' then
 local user_info = LuaTele.getUser(msg.sender.user_id)
@@ -10015,14 +10015,14 @@ elseif text == 'بوت تواصل' or text == 'بوت التواصل' or text ==
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 video = "http://t.me/sorcy/13"
-local Name = 'بوت تواصل سورس ريبورتر '
+local Name = 'بوت تواصل سورس مجيزز '
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '•ʙᴏᴛ•',url="t.me/Saidi8Bot"}
+{text = '•ʙᴏᴛ•',url="t.me/Twmegzzbot"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -10034,7 +10034,7 @@ elseif text == 'قناه السورس' or text == 'قناه سورس' then
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 photo = "http://t.me/sorcy/13"
-local Name = 'قناه سورس ريبورتر ياحب'
+local Name = 'قناه سورس مجيزز ياحب'
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
@@ -10105,11 +10105,11 @@ data = {
 }
 }
 return LuaTele.sendText(msg_chat_id,msg_id, [[*
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
 ـــــــــــــــــــــــ
 • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
 ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧*]],"md",false, false, false, false, reply_markup)
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯*]],"md",false, false, false, false, reply_markup)
 elseif text == 'الالعاب' then
 if not msg.Addictive then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*◉ هاذا الامر يخص⦗ '..Controller_Num(7)..' ⦘* ',"md",true)  
@@ -11134,7 +11134,7 @@ for Name_User in string.gmatch(UserInfo.first_name, "[^%s]+" ) do
 UserInfo.first_name = Name_User
 break
 end 
-local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر")
+local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز")
 local BotName = {
 'اسمي '..NamesBot..' يا قلبي 😍💜',
 'اسمي '..NamesBot..' يا روحي 🙈❤️',
@@ -11166,7 +11166,7 @@ msgg = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id.."&photo=".. URL.escape(NamesBots).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 end
-if text == (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر") then
+if text == (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز") then
 local photo = LuaTele.getUserProfilePhotos(Saidi)
 local UserInfo = LuaTele.getUser(Saidi)
 local user_info = LuaTele.getUser(msg.sender.user_id)
@@ -11175,7 +11175,7 @@ for Name_User in string.gmatch(UserInfo.first_name, "[^%s]+" ) do
 UserInfo.first_name = Name_User
 break
 end 
-local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر")
+local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز")
 local BotName = {
 'نعم يروحي 🌝💙',
 'نعم يا قلب '..NamesBot..'',
@@ -11312,7 +11312,7 @@ local texting = {"اخر افلام شاهدتها",
 "اخر اغنية سمعتها ?", 
 "تكلم عن نفسك", 
 "ليه انت مش سالك", 
-"ما هيا عيوب سورس ريبورتر؟ ", 
+"ما هيا عيوب سورس مجيزز؟ ", 
 "اخر كتاب قرآته", 
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
@@ -11328,13 +11328,13 @@ local texting = {"اخر افلام شاهدتها",
 " ما السيء في هذه الحياة ؟ ", 
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
-" هل يعجبك سورس ريبورتر؟؟ ", 
+" هل يعجبك سورس مجيزز؟؟ ", 
 " اكثر ممثل تحبه ؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
 "تفضّل النقاش الطويل او تحب الاختصار ؟ ", 
 "وش أخر شي ضيعته؟ ", 
-"اي رايك في سورس ريبورتر؟ ", 
+"اي رايك في سورس مجيزز؟ ", 
 "كم مره حبيت؟ ", 
 " اكثر المتابعين عندك باي برنامج؟", 
 " آخر مره ضربت عشره كانت متى ؟", 
@@ -13561,7 +13561,7 @@ baniusername = '*['..bain.first_name..'](tg://user?id='..bain.id..')*'
 else
 baniusername = 'لا يوجد'
 end
-local CmdStart = '*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ\n 🎤╖ أهلآ بك عزيزي أنا بوت '..(Redis:get(Saidi.."Name:Bot") or "ريبورتر")..
+local CmdStart = '*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ\n 🎤╖ أهلآ بك عزيزي أنا بوت '..(Redis:get(Saidi.."Name:Bot") or "مجيزز")..
 '\n ⚙️╢ وظيفتي حماية المجموعات'..
 '\n ✅╢ لتفعيل البوت عليك اتباع مايلي '..
 '\n 🔘╢ أضِف البوت إلى مجموعتك'..
@@ -13899,13 +13899,13 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'سورسي' then
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
-video = "http://t.me/t_imoo/4"
+photo = "http://t.me/gopmcerhh/2"
 local T =[[
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
 ـــــــــــــــــــــــ
 • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
 ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13923,7 +13923,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendvideo?chat_id=" .. msg_chat_id .. "&video="..video.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 elseif text == 'بوت حذف' or text == 'بوت الحذف' or text == 'بووت حذف' then
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
@@ -13947,14 +13947,14 @@ elseif text == 'بوت تواصل' or text == 'بوت التواصل' or text ==
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 video = "http://t.me/sorcy/13"
-local Name = 'بوت تواصل سورس ريبورتر '
+local Name = 'بوت تواصل سورس مجيزز '
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '•ʙᴏᴛ•',url="t.me/Saidi8Bot"}
+{text = '•ʙᴏᴛ•',url="t.me/Twmegzzbot"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -13966,7 +13966,7 @@ elseif text == 'قناه السورس' or text == 'قناه سورس' then
 local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 photo = "http://t.me/sorcy/13"
-local Name = 'قناه سورس ريبورتر ياحب'
+local Name = 'قناه سورس مجيزز ياحب'
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
@@ -13981,9 +13981,9 @@ keyboard.inline_keyboard = {
 }
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-elseif text == 'ريبورتر' or text == 'تيم ريبورتر' or text == 'تيم' or text == 'التيم' then
+elseif text == 'مجيزز' or text == 'تيم مجيزز' or text == 'تيم' or text == 'التيم' then
 photo = "https://t.me/sorcy/6"
-local Name = 'تيم ريبورتر ياحب اعظم تيم في التلي تنورنا في اي وقت'
+local Name = 'تيم مجيزز ياحب اعظم تيم في التلي تنورنا في اي وقت'
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
@@ -13999,7 +13999,7 @@ keyboard.inline_keyboard = {
 {text = '•ʙᴇɴᴛ ᴛɪᴍᴏ²•', url = "https://t.me/bent_ti_mo"},{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ³•', url = "https://t.me/bent_dad_Saidi"}
 },
 {
-{text = '•ʙᴏᴛ ᴛᴇᴀᴍ•', url = "https://t.me/Saidi8BOT"}
+{text = '•ʙᴏᴛ ᴛᴇᴀᴍ•', url = "https://t.me/Twmegzzbot"}
 },
 {
 {text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/postat_selva"}
@@ -14020,7 +14020,7 @@ for Name_User in string.gmatch(UserInfo.first_name, "[^%s]+" ) do
 UserInfo.first_name = Name_User
 break
 end 
-local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر")
+local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز")
 local BotName = {
 'اسمي '..NamesBot..' يا قلبي 😍💜',
 'اسمي '..NamesBot..' يا روحي 🙈❤️',
@@ -14052,7 +14052,7 @@ msgg = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id.."&photo=".. URL.escape(NamesBots).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 end
-if text == (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر") then
+if text == (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز") then
 local photo = LuaTele.getUserProfilePhotos(Saidi)
 local UserInfo = LuaTele.getUser(Saidi)
 local user_info = LuaTele.getUser(msg.sender.user_id)
@@ -14061,7 +14061,7 @@ for Name_User in string.gmatch(UserInfo.first_name, "[^%s]+" ) do
 UserInfo.first_name = Name_User
 break
 end 
-local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "ريبورتر")
+local NamesBot = (Redis:get(Saidi.."Saidi:Name:Bot") or "مجيزز")
 local BotName = {
 'نعم يروحي 🌝💙',
 'نعم يا قلب '..NamesBot..'',
@@ -14830,13 +14830,13 @@ end
 if Text and Text:match('(%d+)/mydev') then
 local UserId = Text:match('(%d+)/mydev')
 if tonumber(IdUser) == tonumber(UserId) then
-photo = "https://t.me/oooopppmmm/2"
+photo = "https://t.me/gopmcerhh/2"
 local T =[[
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
 ـــــــــــــــــــــــ
 • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
 ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙧𝙚𝙗𝙤𝙧𝙩𝙚𝙧
+• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -15244,7 +15244,7 @@ local texting = {"اخر افلام شاهدتها",
 "اخر اغنية سمعتها ?", 
 "تكلم عن نفسك", 
 "ليه انت مش سالك", 
-"ما هيا عيوب سورس ريبورتر ؟ ", 
+"ما هيا عيوب سورس مجيزز ؟ ", 
 "اخر كتاب قرآته", 
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
@@ -15261,13 +15261,13 @@ local texting = {"اخر افلام شاهدتها",
 " ما السيء في هذه الحياة ؟ ", 
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
-" هل يعجبك سورس ريبورتر ؟؟ ", 
+" هل يعجبك سورس مجيزز ؟؟ ", 
 " اكثر ممثل تحبه ؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
 "تفضّل النقاش الطويل او تحب الاختصار ؟ ", 
 "وش أخر شي ضيعته؟ ", 
-"اي رايك في سورس ريبورتر ؟ ", 
+"اي رايك في سورس مجيزز ؟ ", 
 "كم مره حبيت؟ ", 
 " اكثر المتابعين عندك باي برنامج؟", 
 " نسبه الندم عندك للي وثقت فيهم ؟", 
@@ -15794,7 +15794,7 @@ data = {
 }
 }
 local TextHelp = [[*
-• أهلا بك في قائمة العاب سورس ريبورتر اختر نوع الالعاب 
+• أهلا بك في قائمة العاب سورس مجيزز اختر نوع الالعاب 
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
 end
@@ -15834,7 +15834,7 @@ data = {
 }
 }
 local TextHelp = [[*
-• مرحبا بك في الالعاب المتطورة الخاص بسورس ريبورتر 
+• مرحبا بك في الالعاب المتطورة الخاص بسورس مجيزز 
 • اختر اللعبه ثم اختار المحادثة التي تريد اللعب بها
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
