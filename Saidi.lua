@@ -13926,13 +13926,13 @@ keyboard.inline_keyboard = {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '⟪ ᗪᗴᐯ ᗰᗩᘜᗴᗪ ⟫', url = "https://t.me/vpllqr"},{text = '⟪  بــوت تـــواصــل  ⟫', url = "https://Twmegzzbot"}
+{text = '⟪ ᗪᗴᐯ ᗰᗩᘜᗴᗪ ⟫', url = "https://t.me/vpllqr"}
 },
 {
-{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"},{text = '⟪  شروحات السورس  ⟫', url = "https://t.me/MEG0OL"}
+{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"}
 },
 {
-{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"},{text = '⟪  بوت السورس  ⟫', url = "https://t.me/MEG0OL"}
+{text = '⟪ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ⟫', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
