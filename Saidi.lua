@@ -1574,7 +1574,7 @@ data = {
 {text = '• الغاء الامر •', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url='https://https://t.me/MEG0OL'},
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url='https://https://t.me/MEG0OL'},
 },
 }
 }
@@ -1742,7 +1742,7 @@ data = {
 {text = '• الغاء الامر •', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url='https://https://t.me/MEG0OL'},
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url='https://https://t.me/MEG0OL'},
 },
 }
 }
@@ -2893,7 +2893,7 @@ end
 if GetMemberStatus.can_promote_members then
 promote = '❬ ✘ ❭' else promote = '❬ ✓ ❭'
 end
-PermissionsUser = '*\n◉ صلاحيات المستخدم :\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n◉ تغيير المعلومات : '..change_info..'\n◉ تثبيت الرسائل : '..pin_messages..'\n◉ اضافه مستخدمين : '..invite_users..'\n◉ مسح الرسائل : '..delete_messages..'\n◉ حظر المستخدمين : '..restrict_members..'\n◉ اضافه المشرفين : '..promote..'\n\n*'
+PermissionsUser = '*\n◉ صلاحيات المستخدم :\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n◉ تغيير المعلومات : '..change_info..'\n◉ تثبيت الرسائل : '..pin_messages..'\n◉ اضافه مستخدمين : '..invite_users..'\n◉ مسح الرسائل : '..delete_messages..'\n◉ حظر المستخدمين : '..restrict_members..'\n◉ اضافه المشرفين : '..promote..'\n\n*'
 return LuaTele.sendText(msg_chat_id,msg_id,PermissionsUser,"md",true) 
 end
 if text and text:match("^ضع عدد المسح (%d+)$") then  
@@ -2977,7 +2977,7 @@ end
 if GetMemberStatus.can_promote_members then
 promote = '【 ✅ 】' else promote = '【 ❌ 】'
 end
-PermissionsUser = '*\n ◉ صلاحيات البوت في الجروب :\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻'..'\n ◉ تغيير المعلومات : '..change_info..'\n ◉ تثبيت الرسائل : '..pin_messages..'\n ◉ اضافه مستخدمين : '..invite_users..'\n ◉ مسح الرسائل : '..delete_messages..'\n ◉ حظر المستخدمين : '..restrict_members..'\n ◉ اضافه المشرفين : '..promote..'\n\n*'
+PermissionsUser = '*\n ◉ صلاحيات البوت في الجروب :\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻'..'\n ◉ تغيير المعلومات : '..change_info..'\n ◉ تثبيت الرسائل : '..pin_messages..'\n ◉ اضافه مستخدمين : '..invite_users..'\n ◉ مسح الرسائل : '..delete_messages..'\n ◉ حظر المستخدمين : '..restrict_members..'\n ◉ اضافه المشرفين : '..promote..'\n\n*'
 return LuaTele.sendText(msg_chat_id,msg_id,PermissionsUser,"md",true) 
 end
 
@@ -4021,7 +4021,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:DevelopersQ:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"*◉ لا يوجد مطورين ثانوين في البوت*","md",true)  
 end
-ListMembers = '\n* قائمه المطورين الثانوين ⇧⇩* \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* قائمه المطورين الثانوين ⇧⇩* \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4047,7 +4047,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:Developers:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"*◉ لا يوجد مطورين في البوت*","md",true)  
 end
-ListMembers = '\n* ◉ قائمه مطورين البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه مطورين البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4073,7 +4073,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:TheBasicsQ:Group"..msg_chat_id
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد مالكين في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المالكين في البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المالكين في البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4099,7 +4099,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:TheBasics:Group"..msg_chat_id)
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد منشئين اساسيين في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المنشئين الاساسيين ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المنشئين الاساسيين ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4125,7 +4125,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:Originators:Group"..msg_chat_i
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد منشئين في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المنشئين في البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المنشئين في البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4151,7 +4151,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:Managers:Group"..msg_chat_id)
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد مدراء في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المدراء في البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المدراء في البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4177,7 +4177,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:Addictive:Group"..msg_chat_id)
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد ادمنيه في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه الادمنيه في البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه الادمنيه في البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4229,7 +4229,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:BanAll:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد محظورين عام في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المحظورين عام ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المحظورين عام ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4255,7 +4255,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:ktmAll:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id," ◉ لا يوجد مكتومين عام في البوت ","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المكتومين عام ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المكتومين عام ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -4307,7 +4307,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:SilentGroup:Group"..msg_chat_i
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد مكتومين في البوت *","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المكتومين في البوت ⇧⇩*\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+ListMembers = '\n* ◉ قائمه المكتومين في البوت ⇧⇩*\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -5743,7 +5743,7 @@ if msg.can_be_deleted_for_all_users == false then
 return LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ عذرا البوت ليس ادمن في الجروب يرجى ترقيته وتفعيل الصلاحيات له *","md",true)  
 end
 local Info_Members = LuaTele.getSupergroupMembers(msg_chat_id, "Administrators", "*", 0, 200)
-listAdmin = '\n* ◉ قائمه الادمنيه \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+listAdmin = '\n* ◉ قائمه الادمنيه \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 local List_Members = Info_Members.members
 for k, v in pairs(List_Members) do
 if Info_Members.members[k].status.luatele == "chatMemberStatusCreator" then
@@ -5865,7 +5865,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ عذرا البوت ليس �
 end
 local Info_Members = LuaTele.getSupergroupMembers(msg_chat_id, "Bots", "*", 0, 200)
 local List_Members = Info_Members.members
-listBots = '\n* ◉ قائمه البوتات \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+listBots = '\n* ◉ قائمه البوتات \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 x = 0
 for k, v in pairs(List_Members) do
 local ban = LuaTele.getUser(v.member_id.user_id)
@@ -5897,7 +5897,7 @@ local Info_Members = LuaTele.getSupergroupMembers(msg_chat_id, "Recent", "*", 0,
 local List_Members = Info_Members.members
 x = 0
 y = nil
-restricted = '\n* ◉ قائمه المقيديين \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+restricted = '\n* ◉ قائمه المقيديين \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 for k, v in pairs(List_Members) do
 if Info_Members.members[k].status.is_member == true and Info_Members.members[k].status.luatele == "chatMemberStatusRestricted" then
 y = true
@@ -5982,7 +5982,7 @@ local zwgat_list = Redis:smembers(Saidi..msg_chat_id.."zwgat:")
 if #zwgat_list == 0 then 
 return LuaTele.sendText(msg_chat_id,msg_id,'*◉ لايوجد زوجات*',"md",true) 
 end 
-local zwga_list = "* ◉ قائمة الزوجات *"..#zwgat_list.."\n*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n"
+local zwga_list = "* ◉ قائمة الزوجات *"..#zwgat_list.."\n*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n"
 for k, v in pairs(zwgat_list) do
 local UserInfo = LuaTele.getUser(v)
 if UserInfo and UserInfo.username and UserInfo.username ~= "" then
@@ -5998,7 +5998,7 @@ local lonely_list = Redis:smembers(Saidi..msg_chat_id.."lonely:")
 if #lonely_list == 0 then 
 return LuaTele.sendText(msg_chat_id,msg_id,'*◉ لايوجد متوحدين *',"md",true) 
 end 
-local lone_list = "* ◉ قائمة متوحدين الجروب *"..#lonely_list.."\n*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n"
+local lone_list = "* ◉ قائمة متوحدين الجروب *"..#lonely_list.."\n*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n"
 for k, v in pairs(lonely_list) do
 local UserInfo = LuaTele.getUser(v)
 if UserInfo and UserInfo.username and UserInfo.username ~= "" then
@@ -6014,7 +6014,7 @@ local mutlqat_list = Redis:smembers(Saidi..msg_chat_id.."mutlqat:")
 if #mutlqat_list == 0 then 
 return LuaTele.sendText(msg_chat_id,msg_id,'*◉ لايوجد مطلقات*',"md",true) 
 end 
-local mutlqa_list = "* ◉ قائمة المطلقات *"..#mutlqat_list.."\n*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n"
+local mutlqa_list = "* ◉ قائمة المطلقات *"..#mutlqat_list.."\n*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n"
 for k, v in pairs(mutlqat_list) do
 local UserInfo = LuaTele.getUser(v)
 if UserInfo and UserInfo.username and UserInfo.username ~= "" then
@@ -6030,7 +6030,7 @@ local klbklb_list = Redis:smembers(Saidi..msg_chat_id.."klbklb:")
 if #klbklb_list == 0 then 
 return LuaTele.sendText(msg_chat_id,msg_id,'*◉ لايوجد الكلاب *',"md",true) 
 end 
-local klbk_list = "* ◉ قائمة الكلاب الجروب *"..#klbklb_list.."\n*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n"
+local klbk_list = "* ◉ قائمة الكلاب الجروب *"..#klbklb_list.."\n*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n"
 for k, v in pairs(klbklb_list) do
 local UserInfo = LuaTele.getUser(v)
 if UserInfo and UserInfo.username and UserInfo.username ~= "" then
@@ -7811,7 +7811,7 @@ local list = Redis:smembers(Saidi.."Saidi:List:Filter"..msg_chat_id)
 if #list == 0 then  
 return LuaTele.sendText(msg_chat_id,msg_id,"* ◉ لا يوجد كلمات ممنوعه هنا *","md",true)   
 end  
-Filter = '\n* ◉ قائمه المنع \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+Filter = '\n* ◉ قائمه المنع \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 for k,v in pairs(list) do  
 print(v)
 if v:match('photo:(.*)') then
@@ -7901,7 +7901,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اض�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ◉ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(Saidi.."Saidi:All:Command:List:Group")
-Command = " ◉ قائمه الاوامر المضافه العامه  \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+Command = " ◉ قائمه الاوامر المضافه العامه  \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 for k,v in pairs(list) do
 Commands = Redis:get(Saidi.."Saidi:All:Get:Reides:Commands:Group"..v)
 if Commands then 
@@ -7963,7 +7963,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اض�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ◉ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(Saidi.."Saidi:Command:List:Group"..msg_chat_id.."")
-Command = " ◉ قائمه الاوامر المضافه  \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+Command = " ◉ قائمه الاوامر المضافه  \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 for k,v in pairs(list) do
 Commands = Redis:get(Saidi.."Saidi:Get:Reides:Commands:Group"..msg_chat_id..":"..v)
 if Commands then 
@@ -8122,7 +8122,7 @@ end
 if Redis:get(Saidi.."Saidi:Status:AddMe"..msg.chat_id) then
 StatusAddme = '【 ✅ 】' else StatusAddme = '【 ❌ 】'
 end
-local protectionGroup = '\n* ◉ اعدادات حمايه الجروب\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n'
+local protectionGroup = '\n* ◉ اعدادات حمايه الجروب\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n'
 ..'\n ◉ جلب الرابط⇦ '..Statuslink
 ..'\n ◉ جلب الترحيب⇦ '..StatusWelcome
 ..'\n ◉ الايدي⇦ '..StatusId
@@ -8137,7 +8137,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
@@ -8240,8 +8240,8 @@ end
 if Get_Chat.permissions.can_send_polls then
 polls = '【 ✅ 】' else polls = '【 ❌ 】'
 end
-local permissions = '*\n ◉ صلاحيات الجروب :\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻'..'\n ◉ ارسال الويب : '..web..'\n ◉ تغيير معلومات الجروب : '..info..'\n ◉ اضافه مستخدمين : '..invite..'\n ◉ تثبيت الرسائل : '..pin..'\n ◉ ارسال الميديا : '..media..'\n ◉ ارسال الرسائل : '..messges..'\n ◉ اضافه البوتات : '..other..'\n ◉ ارسال استفتاء : '..polls..'*\n\n'
-local TextChat = '*\n ◉ معلومات الجروب :\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻'..' \n ◉ عدد الادمنيه : ❬ '..Info_Chats.administrator_count..' ❭\n ◉ عدد المحظورين : ❬ '..Info_Chats.banned_count..' ❭\n ◉ عدد الاعضاء : ❬ '..Info_Chats.member_count..' ❭\n ◉ عدد المقيديين : ❬ '..Info_Chats.restricted_count..' ❭\n ◉ اسم الجروب : ❬* ['..Get_Chat.title..']('..Info_Chats.invite_link.invite_link..')* ❭*'
+local permissions = '*\n ◉ صلاحيات الجروب :\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻'..'\n ◉ ارسال الويب : '..web..'\n ◉ تغيير معلومات الجروب : '..info..'\n ◉ اضافه مستخدمين : '..invite..'\n ◉ تثبيت الرسائل : '..pin..'\n ◉ ارسال الميديا : '..media..'\n ◉ ارسال الرسائل : '..messges..'\n ◉ اضافه البوتات : '..other..'\n ◉ ارسال استفتاء : '..polls..'*\n\n'
+local TextChat = '*\n ◉ معلومات الجروب :\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻'..' \n ◉ عدد الادمنيه : ❬ '..Info_Chats.administrator_count..' ❭\n ◉ عدد المحظورين : ❬ '..Info_Chats.banned_count..' ❭\n ◉ عدد الاعضاء : ❬ '..Info_Chats.member_count..' ❭\n ◉ عدد المقيديين : ❬ '..Info_Chats.restricted_count..' ❭\n ◉ اسم الجروب : ❬* ['..Get_Chat.title..']('..Info_Chats.invite_link.invite_link..')* ❭*'
 return LuaTele.sendText(msg_chat_id,msg_id, TextChat..permissions,"md",true)
 end
 if text == 'صلاحيات الجروب' then
@@ -9150,7 +9150,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اض�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n• عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(Saidi.."Saidi:List:Manager"..msg_chat_id.."")
-text = " ◉ قائمه الردود ⇧⇩\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+text = " ◉ قائمه الردود ⇧⇩\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 for k,v in pairs(list) do
 if Redis:get(Saidi.."Saidi:Add:Rd:Manager:Gif"..v..msg_chat_id) then
 db = "متحركه 🎭"
@@ -9232,7 +9232,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اض�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n• عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(Saidi.."Saidi:List:Rd:Sudo")
-text = "\n◉ قائمة الردود العامه ⇧⇩\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+text = "\n◉ قائمة الردود العامه ⇧⇩\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 for k,v in pairs(list) do
 if Redis:get(Saidi.."Saidi:Add:Rd:Sudo:Gif"..v) then
 db = "متحركه 🎭"
@@ -9411,7 +9411,7 @@ SilentGroup = 'مكتوم'
 else
 SilentGroup = 'غير مكتوم'
 end
-LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ معلومات الكشف \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻"..'\n ◉ الحظر العام : '..BanAll..'\n ◉ الحظر : '..BanGroup..'\n ◉ الكتم : '..SilentGroup..'\n ◉ التقييد : '..Restricted..'*',"md",true)  
+LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ معلومات الكشف \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻"..'\n ◉ الحظر العام : '..BanAll..'\n ◉ الحظر : '..BanGroup..'\n ◉ الكتم : '..SilentGroup..'\n ◉ التقييد : '..Restricted..'*',"md",true)  
 end
 if text and text:match('^كشف القيود @(%S+)$') then
 local UserName = text:match('^كشف القيود @(%S+)$')
@@ -9456,7 +9456,7 @@ SilentGroup = 'مكتوم'
 else
 SilentGroup = 'غير مكتوم'
 end
-LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ معلومات الكشف \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻"..'\n ◉ الحظر العام : '..BanAll..'\n ◉ الحظر : '..BanGroup..'\n ◉ الكتم : '..SilentGroup..'\n ◉ التقييد : '..Restricted..'*',"md",true)  
+LuaTele.sendText(msg_chat_id,msg_id,"\n* ◉ معلومات الكشف \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻"..'\n ◉ الحظر العام : '..BanAll..'\n ◉ الحظر : '..BanGroup..'\n ◉ الكتم : '..SilentGroup..'\n ◉ التقييد : '..Restricted..'*',"md",true)  
 end
 if text == 'رفع القيود' and msg.reply_to_message_id ~= 0 then
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -9633,7 +9633,7 @@ end
 if Redis:get(Saidi.."zhrfa"..msg.sender.user_id) == "sendzh" then
 zh = https.request('https://apiabs.ml/zrf.php?abs='..URL.escape(text)..'')
 zx = JSON.decode(zh)
-t = "\n ◉قائمه الزخرفه \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+t = "\n ◉قائمه الزخرفه \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 i = 0
 for k,v in pairs(zx.ok) do
 i = i + 1
@@ -9658,7 +9658,7 @@ data.inline_keyboard = {
 {text ='نسبه جمالك يا قمر '..rdbhoto..' 🌝💙',url = "https://t.me/"..ban.username..""}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -9793,7 +9793,7 @@ keyboardd.inline_keyboard = {
 {text = ' • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •', url = "https://t.me/vpllqr"}
 },
 {
-{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
+{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Twmegzzbot"}
@@ -9809,7 +9809,7 @@ keyboardd.inline_keyboard = {
 {text = ' • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •', url = "https://t.me/vpllqr"}
 },
 {
-{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
+{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•𝙗𝙤𝙩 𝙨𝙚𝙯𝙧•',url="t.me/Twmegzzbot"}
@@ -9847,7 +9847,7 @@ data = {
 },
 }
 }
-LuaTele.sendText(Sudo_Id,0,'*\n◉ مرحباً عزيزي المطور \nشخص ما يحتاج الي مساعده\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n◉ اسمه :- '..klajq..' \n◉ ايديه :-  : '..msg.sender.user_id..'\n◉ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(Sudo_Id,0,'*\n◉ مرحباً عزيزي المطور \nشخص ما يحتاج الي مساعده\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n◉ اسمه :- '..klajq..' \n◉ ايديه :-  : '..msg.sender.user_id..'\n◉ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
 if text == 'المبرمج ماجد' or text == 'ماجد' or text == 'مبرمج السورس' or text == '• المبرمج ماجد •' then    
 local Get_Chat = LuaTele.getChat(msg_chat_id)
@@ -9875,7 +9875,7 @@ data = {
 },
 }
 }
-LuaTele.sendText(1019432417,0,'*\n◉ مرحباً عزيزي المبرمج ماجد \nشخص ما يحتاج الي مساعده\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n◉ اسمه :- '..klajq..' \n◉ ايديه :-  : '..msg.sender.user_id..'\n◉ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(1019432417,0,'*\n◉ مرحباً عزيزي المبرمج ماجد \nشخص ما يحتاج الي مساعده\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n◉ اسمه :- '..klajq..' \n◉ ايديه :-  : '..msg.sender.user_id..'\n◉ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
 if text == "تتجوزيني"  then
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -9933,7 +9933,7 @@ keyboard.inline_keyboard = {
 {text = '• استوري مضحك •', callback_data=msg.sender.user_id.."/story4"},{text = '• استوري قران •', callback_data=msg.sender.user_id.."/story3"},
 },
 {
-{text = '•sَoٰuِِ𝖱ٰcٌe  ِ𝖱ٌeٓٓBoِٰ𝖱tٌِeِ𝖱 •', url = "http://t.me/MEG0OL"}
+{text = '•sَoٰuِِ𝖱ٰcٌe  𝑴𝑬𝑮𝒁𝒁 •', url = "http://t.me/MEG0OL"}
 },
 }
 local rep = msg.id/2097152/0.5
@@ -9979,7 +9979,7 @@ local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 local RinkBot = msg.Name_Controller
 photo = "https://t.me/gopmcerhh/2"
-local Text = '*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n❤️┏ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯\n     ┊\n❤️┣ • 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢\n     ┊\n❤️┗ • 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n*'
+local Text = '*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n❤️┏ • ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ\n     ┊\n❤️┣ • Tᕼᗴ ᗷᗴՏT ՏOᑌᖇᑕᗴ Tᗴᒪᗴᘜᖇᗩᗰ\n     ┊\n❤️┗ • ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n*'
 keyboardd = {} 
 keyboard.inline_keyboard = {
 {
@@ -10041,7 +10041,7 @@ keyboard.inline_keyboard = {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •',url="t.me/MEG0OL"}
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ',url="t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -10070,7 +10070,7 @@ data = {
 {text = '•❺• ', data = msg.sender.user_id..'/listallAddorrem'}, {text = '•❻• ', data = msg.sender.user_id..'/NoNextSeting'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 • ', url = 't.me/omar_goo_noor'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ', url = 't.me/omar_goo_noor'}, 
 },
 }
 }
@@ -10100,16 +10100,16 @@ data = {
 {text = '• 𝙜𝙖𝙢𝙚𝙨 •', data = msg.sender.user_id..'/abdo3'}, {text = '• 𝙯𝙤𝙙𝙞𝙖𝙘 •', data = msg.sender.user_id..'/abdo4'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 • ', url = 't.me/omar_goo_noor'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ', url = 't.me/omar_goo_noor'}, 
 },
 }
 }
 return LuaTele.sendText(msg_chat_id,msg_id, [[*
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ
 ـــــــــــــــــــــــ
-• 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
+• Tᕼᗴ ᗷᗴՏT ՏOᑌᖇᑕᗴ Tᗴᒪᗴᘜᖇᗩᗰ
 ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯*]],"md",false, false, false, false, reply_markup)
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ*]],"md",false, false, false, false, reply_markup)
 elseif text == 'الالعاب' then
 if not msg.Addictive then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*◉ هاذا الامر يخص⦗ '..Controller_Num(7)..' ⦘* ',"md",true)  
@@ -10126,7 +10126,7 @@ data = {
 {text = 'العاب متطورة ', data = msg.sender.user_id..'/degm'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 't.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 't.me/MEG0OL'}, 
 },
 }
 }
@@ -10305,7 +10305,7 @@ if text and text:match("^زخرفه (.*)$") then
 local TextZhrfa = text:match("^زخرفه (.*)$")
 zh = https.request('https://apiabs.ml/zrf.php?abs='..URL.escape(TextZhrfa)..'')
 zx = JSON.decode(zh)
-t = "\n* ◉ قائمه الزخرفه ⇓⇑*\n*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n* أضغط علي الاسم لا يتم النسخ ◉ *\n"
+t = "\n* ◉ قائمه الزخرفه ⇓⇑*\n*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n* أضغط علي الاسم لا يتم النسخ ◉ *\n"
 i = 0
 for k,v in pairs(zx.ok) do
 i = i + 1
@@ -12262,7 +12262,7 @@ Redis:set(Saidi.."Get:Reides:Commands:Group"..msg_chat_id..":"..'ثانوي','ر
 
 return LuaTele.sendText(msg_chat_id,msg_id,[[*
 ✵ تم ترتيب الاوامر بالشكل التالي 
-𖤍•──∴ ِ𝖱ٌeٓٓBoِٰ𝖱tٌِeِ𝖱 ∴──•𖤍
+𖤍•──∴ 𝑴𝑬𝑮𝒁𝒁 ∴──•𖤍
 ✵  ايدي - ا
 ✵  رفع مميز - م
 ✵ رفع ادمن - اد
@@ -13545,23 +13545,10 @@ LuaTele.sendText(msg_chat_id,msg_id, "* ◉ تم تحديث الملفات *","m
 dofile('Saidi.lua')  
 end
 if text == '/start' then
-local photo = LuaTele.getUserProfilePhotos(Saidi)
-local ban = LuaTele.getUser(Saidi)
-local bain = LuaTele.getUser(msg.sender.user_id)
 Redis:sadd(Saidi..'Num:User:Pv',msg.sender.user_id)  
-if not msg.ControllerBot then
+if not msg.DevelopersQ then
 if not Redis:get(Saidi.."Start:Bot") then
-if bain.username then
-banusername = '[@'..bain.username..']'
-else
-banusername = 'لا يوجد'
-end
-if bain.first_name then
-baniusername = '*['..bain.first_name..'](tg://user?id='..bain.id..')*'
-else
-baniusername = 'لا يوجد'
-end
-local CmdStart = '*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ\n 🎤╖ أهلآ بك عزيزي أنا بوت '..(Redis:get(Saidi.."Name:Bot") or "مجيزز")..
+local CmdStart = '*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ\n🎤╖ أهلآ بك عزيزي أنا بوت '..(Redis:get(Saidi.."Name:Bot") or "ريبورتر")..
 '\n ⚙️╢ وظيفتي حماية المجموعات'..
 '\n ✅╢ لتفعيل البوت عليك اتباع مايلي '..
 '\n 🔘╢ أضِف البوت إلى مجموعتك'..
@@ -13570,51 +13557,77 @@ local CmdStart = '*ــــــــــــــــــــــــــــــ�
 '\n 🎌╜ ارسل كلمة تفعيل ليتم تفعيل المجموعه'..
 '\n ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ'..
 '\n ✵ مطور البوت -›〘 @'..UserSudo..' 〙*'
-if photo.total_count > 0 then
-keyboard = {} 
-keyboard.inline_keyboard = {
-{
-{text = '𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦 🧑‍💻', callback_data = msg.sender.user_id..'/mydev'}, {text = '𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 🌐', callback_data = msg.sender.user_id..'/chSource'},
-},
-{
-{text = '𝗕𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚', callback_data = msg.sender.user_id..'/help1'}, {text = '𝗦𝗢𝗨𝗥𝗖𝗘 𝗕𝗢𝗧 ✅', callback_data = msg.sender.user_id..'/mysourcebot'},
-},
-{
-{text = '𝗚𝗔𝗠𝗘𝗦 🎮', callback_data = msg.sender.user_id..'/mygeams'}
-},
-{
-{text = 'تـغــير الــلــغـة ♻️', callback_data = msg.sender.user_id..'/myluangug'}
-},
-{
-{text = ' ⚙️ اضف البوت لمجموعتك ⚙️ ', url = 't.me/'..UserBot..'?startgroup=new'},
-},
-}
-local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id.."&caption=".. URL.escape(CmdStart).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-LuaTele.sendText(Sudo_Id,0,'*\n دخل شخص إلى البوت \n𖣘┉┉┉⊶𓄼•𝐒𝐄𝐋𝐕𝐀•𓄹⊷┉┉┉𖣘\n اسمه :- '..baniusername..' \n ايديه :-  : '..msg.sender.user_id..'\n - معرفة '..banusername..' \n*',"md")
-else
-local reply_markup = LuaTele.replyMarkup{
-type = 'inline',
+local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
 data = {
 {
-{text = '𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦 🧑‍💻', callback_data = msg.sender.user_id..'/mydev'}, {text = '𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 🌐', callback_data = msg.sender.user_id..'/chSource'},
+{text = 'المطور سيزر',type = 'text'},{text = 'المطور عسليه', type = 'text'},
 },
 {
-{text = '𝗕𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚', callback_data = msg.sender.user_id..'/mycommands'}, {text = '𝗦𝗢𝗨𝗥𝗖𝗘 𝗕𝗢𝗧 ✅', callback_data = msg.sender.user_id..'/mysourcebot'},
+{text = 'قناة السورس',type = 'text'},{text = 'جروب الدعم', type = 'text'},
 },
 {
-{text = '𝗚𝗔𝗠𝗘𝗦 🎮', callback_data = msg.sender.user_id..'/mygeams'}
+{text = 'سورس',type = 'text'},{text = 'المطور', type = 'text'},
 },
 {
-{text = 'تـغــير الــلــغـة ♻️', callback_data = msg.sender.user_id..'/myluangug'}
+{text = '𖤍•──∴ 𝑴𝑬𝑮𝒁𝒁 ∴──•𖤍',type = 'text'},
 },
 {
-{text = ' ⚙️ اضف بوت '..Mostafa..' لمجموعتك  ⚙️ ', url = 't.me/'..UserBot..'?startgroup=new'},
+{text = 'غنيلي',type = 'text'},{text = 'استوري', type = 'text'},
+},
+{
+{text = 'رتبتي',type = 'text'},{text = 'ايدي', type = 'text'},
+},
+{
+{text = 'لو خيروك',type = 'text'},{text = 'حروف', type = 'text'},
+},
+{
+{text = 'نكته',type = 'text'},{text = 'اذكار', type = 'text'},
+},
+{
+{text = 'تويت',type = 'text'},{text = 'كتبات', type = 'text'},
+},
+{
+{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪', url = 't.me/'..UserBot..'?startgroup=new'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,CmdStart,"md",false, false, false, false, reply_markup)
+else
+local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
+data = {
+{
+{text = 'المطور سيزر',type = 'text'},{text = 'المطور عسليه', type = 'text'},
+},
+{
+{text = 'قناة السورس',type = 'text'},{text = 'جروب الدعم', type = 'text'},
+},
+{
+{text = 'سورس',type = 'text'},{text = 'المطور', type = 'text'},
+},
+{
+{text = '𖤍•──∴ 𝑴𝑬𝑮𝒁𝒁 ∴──•𖤍',type = 'text'},
+},
+{
+{text = 'غنيلي',type = 'text'},{text = 'استوري', type = 'text'},
+},
+{
+{text = 'رتبتي',type = 'text'},{text = 'ايدي', type = 'text'},
+},
+{
+{text = 'لو خيروك',type = 'text'},{text = 'حروف', type = 'text'},
+},
+{
+{text = 'نكته',type = 'text'},{text = 'اذكار', type = 'text'},
+},
+{
+{text = 'تويت',type = 'text'},{text = 'كتبات', type = 'text'},
+},
+{
+{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 }
 }
 return LuaTele.sendText(msg_chat_id,msg_id,Redis:get(Saidi.."Start:Bot"),"md",false, false, false, false, reply_markup)
-end
 end
 else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
@@ -13804,12 +13817,12 @@ end
  CPUPer=`top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'`
  uptime=`uptime | awk -F'( |,|:)+' '{if ($7=="min") m=$6; else {if ($7~/^day/) {d=$6;h=$8;m=$9} else {h=$6;m=$7}}} {print d+0,"days,",h+0,"hours,",m+0,"minutes."}'`
  echo '◉   { نظام التشغيل } ⊰•\n*↵↵ '"$linux_version"'*' 
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { الذاكره العشوائيه } ⊰•\n*↵↵ '"$memUsedPrc"'*'
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { وحـده الـتـخـزيـن } ⊰•\n*↵↵ '"$HardDisk"'*'
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { الـمــعــالــج } ⊰•\n*↵↵ '"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { موقـع الـسـيـرفـر } ⊰•\n*↵↵ '`curl http://th3boss.com/ip/location`'*'
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { الــدخــول } ⊰•\n*↵↵ '`whoami`'*'
- echo '*༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n*🌐  { مـده تـشغيـل الـسـيـرفـر } ⊰• \n*↵↵ '"$uptime"'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { الذاكره العشوائيه } ⊰•\n*↵↵ '"$memUsedPrc"'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { وحـده الـتـخـزيـن } ⊰•\n*↵↵ '"$HardDisk"'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { الـمــعــالــج } ⊰•\n*↵↵ '"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { موقـع الـسـيـرفـر } ⊰•\n*↵↵ '`curl http://th3boss.com/ip/location`'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { الــدخــول } ⊰•\n*↵↵ '`whoami`'*'
+ echo '*༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n*🌐  { مـده تـشغيـل الـسـيـرفـر } ⊰• \n*↵↵ '"$uptime"'*'
  ]]):read('*all')
 LuaTele.sendText(msg_chat_id,msg_id,ioserver,"md",true)
 end
@@ -13846,7 +13859,7 @@ Creat = " Developers Bot \n"
 end
 local photo = LuaTele.getUserProfilePhotos(Sudo_Id)
 if photo.total_count > 0 then
-local TestText = "  ❲  • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •❳\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n ◉*Dev Name* :  [".. ban.first_name.."](tg://user?id="..Sudo_Id..")\n◉ *Dev Bio* : ["..Bio.." ]\n"
+local TestText = "  ❲  • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •❳\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n ◉*Dev Name* :  [".. ban.first_name.."](tg://user?id="..Sudo_Id..")\n◉ *Dev Bio* : ["..Bio.." ]\n"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -13856,7 +13869,7 @@ keyboardd.inline_keyboard = {
 local msg_id = msg.id/2097152/0.5 
  https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id='..msg.chat_id..'&caption='..URL.escape(TestText)..'&photo='..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboardd))
 else
-local TestText = "  ❲  • ᗪᗴᐯ ᗰᗩᘜᗴᗪ • ❳\n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n ◉*Dev Name* :  [".. ban.first_name.."](tg://user?id="..Sudo_Id..")\n◉ *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲  • ᗪᗴᐯ ᗰᗩᘜᗴᗪ • ❳\n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n ◉*Dev Name* :  [".. ban.first_name.."](tg://user?id="..Sudo_Id..")\n◉ *Dev Bio* : [❲ "..Bio.." ❳]"
 local msg_id = msg.id/2097152/0.5 
  https.request("https://api.telegram.org/bot"..Token..'/sendMessage?chat_id=' .. msg.chat_id .. '&text=' .. URL.escape(TestText).."&reply_to_message_id="..msg_id.."&parse_mode=markdown")
 end
@@ -13874,7 +13887,7 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local DevJabwa = "*•𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝚁𝙴𝙱𝙾𝚁𝚃𝙴𝚁 𝚂𝙴𝚉𝚁*\n*•𝙽𝙰𝙼𝙴 𝚂𝙴𝚉𝚁 -› *"..ban.first_name.."\n*•𝙸𝙳 𝚂𝙴𝚉𝚁 -› "..UserId_Info.id.."*\n*•𝙱𝙸𝙾 𝚂𝙴𝚉𝚁 -›*  *"..Bio.." *"
+local DevJabwa = "*•ᗪᗴᐯ ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ ᗰᗩᘜᗴᗪ*\n*•𝙽𝙰𝙼𝙴 ᗰᗩᘜᗴᗪ -› *"..ban.first_name.."\n*•𝙸𝙳 ᗰᗩᘜᗴᗪ -› "..UserId_Info.id.."*\n*•𝙱𝙸𝙾 ᗰᗩᘜᗴᗪ -›*  *"..Bio.." *"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -13884,7 +13897,7 @@ keyboardd.inline_keyboard = {
 local msg_id = msg.id/2097152/0.5 
  https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id='..msg.chat_id..'&caption='..URL.escape(DevJabwa)..'&photo='..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboardd))
 else
-local DevJabwa = "*• 𝙳𝙴𝚅 𝚂𝙴𝚉𝚁 . 𝚂𝙾𝚄𝚁𝙲𝙴 𝚁𝙴𝙱𝙾𝚁𝚃𝙴𝚁 *\n*•𝙽𝙰𝙼𝙴 𝚂𝙴𝚉𝚁 -› *"..ban.first_name.."\n*• 𝙸𝙳 𝚂𝙴𝚉𝚁 -› "..UserId_Info.id.."*\n*• 𝙱𝙸𝙾 𝚂𝙴𝚉𝚁 -›*  *"..Bio.." *"
+local DevJabwa = "*• ᗪᗴᐯ ᗰᗩᘜᗴᗪ . ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ *\n*•𝙽𝙰𝙼𝙴 ᗰᗩᘜᗴᗪ -› *"..ban.first_name.."\n*• Iᗪ ᗰᗩᘜᗴᗪ -› "..UserId_Info.id.."*\n*• ᗷIO ᗰᗩᘜᗴᗪ -›*  *"..Bio.." *"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -13901,11 +13914,11 @@ local user_info = LuaTele.getUser(msg.sender.user_id)
 local first_name = user_info.first_name
 photo = "http://t.me/gopmcerhh/2"
 local T =[[
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
-ـــــــــــــــــــــــ
-• 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
-ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ
+• Tᕼᗴ ᗷᗴՏT ՏOᑌᖇᑕᗴ Tᗴᒪᗴᘜᖇᗩᗰ
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ
+🝭[ᗪᗴᐯᗴᒪOᑭᗴᖇ ᗰᗴᘜᘔᘔ](https://t.me/MEG0OL) 
+🝭[ᗪᗴᐯ ᗰᗩᘜᗴᗪ](https://t.me/vpllqr) 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13913,10 +13926,13 @@ keyboard.inline_keyboard = {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = ' • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •', url = "https://t.me/vpllqr"}
+{text = ' • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •', url = "https://t.me/vpllqr"},{text = '•بــوت تـــواصــل•', url = "https://Twmegzzbot"}
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"},{text = '•شروحات السورس•', url = "https://t.me/MEG0OL"}
+},
+{
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"},{text = '•بوت السورس•', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -13973,7 +13989,7 @@ keyboard.inline_keyboard = {
 {text =first_name, url = "https://t.me/MEG0OL"}
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •',url="t.me/MEG0OL"}
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ',url="t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -13981,36 +13997,6 @@ keyboard.inline_keyboard = {
 }
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-elseif text == 'مجيزز' or text == 'تيم مجيزز' or text == 'تيم' or text == 'التيم' then
-photo = "https://t.me/sorcy/6"
-local Name = 'تيم مجيزز ياحب اعظم تيم في التلي تنورنا في اي وقت'
-keyboard = {} 
-keyboard.inline_keyboard = {
-{
-{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ¹•', url = "https://t.me/vpllqr"}
-},
-{
-{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ²•', url = "https://t.me/Snp_Zmlkawe"},{text = '•ᴏᴡɴᴇʀ ᴛᴇᴀᴍ³•', url = "https://t.me/EL_ME_RE_KH_Y9"}
-},
-{
-{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ¹•', url = "https://t.me/bent_Saidi"}
-},
-{
-{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ²•', url = "https://t.me/bent_ti_mo"},{text = '•ʙᴇɴᴛ ᴛɪᴍᴏ³•', url = "https://t.me/bent_dad_Saidi"}
-},
-{
-{text = '•ʙᴏᴛ ᴛᴇᴀᴍ•', url = "https://t.me/Twmegzzbot"}
-},
-{
-{text = '•𝙜𝙧𝙤𝙪𝙥•', url = "https://t.me/br_selva"},{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/postat_selva"}
-},
-{
-{text = '•™ʽ𝑻 𝑺ᯓ𝑺𝑬𝑳𝑽𝑨✓⃟🎌๏͈͈͈͈͈͈͈⌯•', url = "https://t.me/br_selva"}
-},
-}
-local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-end
 if text == "بوت" or text == "البوت" or text == "bot" or text == "Bot" then
 local photo = LuaTele.getUserProfilePhotos(Saidi)
 local UserInfo = LuaTele.getUser(Saidi)
@@ -14388,7 +14374,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اض�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ◉ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local list = Redis:smembers(Saidi.."Saidi:List:Rd:Sudo")
-text = "\nقائمة الردود العامه ⇧⇩ \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻\n"
+text = "\nقائمة الردود العامه ⇧⇩ \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻\n"
 for k,v in pairs(list) do
 if Redis:get(Saidi.."Saidi:Add:Rd:Sudo:Gif"..v) then
 db = "متحركه"
@@ -14540,7 +14526,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:BanAll:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id," ◉ لا يوجد محظورين عام في البوت ","md",true)  
 end
-ListMembers = '\n* ◉ قائمه المحظورين عام  \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+ListMembers = '\n* ◉ قائمه المحظورين عام  \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 var(v)
@@ -14567,7 +14553,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:Developers:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id," ◉ لا يوجد مطورين في البوت ","md",true)  
 end
-ListMembers = '\n* ◉ قائمه مطورين البوت \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+ListMembers = '\n* ◉ قائمه مطورين البوت \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -14593,7 +14579,7 @@ local Info_Members = Redis:smembers(Saidi.."Saidi:DevelopersQ:Groups")
 if #Info_Members == 0 then
 return LuaTele.sendText(msg_chat_id,msg_id," ◉ لا يوجد مطورين في البوت ","md",true)  
 end
-ListMembers = '\n* ◉ قائمه مطورين البوت \n༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻*\n'
+ListMembers = '\n* ◉ قائمه مطورين البوت \n༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻*\n'
 for k, v in pairs(Info_Members) do
 local ban = LuaTele.getUser(v)
 if ban and ban.username and ban.username ~= "" then
@@ -14832,11 +14818,11 @@ local UserId = Text:match('(%d+)/mydev')
 if tonumber(IdUser) == tonumber(UserId) then
 photo = "https://t.me/gopmcerhh/2"
 local T =[[
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ
 ـــــــــــــــــــــــ
-• 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙨𝙤𝙪𝙧𝙘𝙚 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
+• Tᕼᗴ ᗷᗴՏT ՏOᑌᖇᑕᗴ Tᗴᒪᗴᘜᖇᗩᗰ
 ـــــــــــــــــــــــ
-• 𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙨𝙤𝙪𝙧𝙘𝙚 𝙢𝙖𝙚𝙜𝙯𝙯
+• ᗯᗴᒪᑕOᗰᗴ TO ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -14847,7 +14833,7 @@ keyboard.inline_keyboard = {
 {text = ' • ᗪᗴᐯ ᗰᗩᘜᗴᗪ •', url = "https://t.me/vpllqr"}
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = "https://t.me/MEG0OL"}
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = "https://t.me/MEG0OL"}
 },
 {
 {text = '•اضف البوت لمجموعتك•', url = 't.me/'..UserBot..'?startgroup=new'},
@@ -15575,7 +15561,7 @@ data = {
 {text = '• القائمه الرئيسيه •', data = IdUser..'/helpall'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
@@ -15600,13 +15586,13 @@ data = {
 {text = '• القائمه الرئيسيه •', data = IdUser..'/helpall'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
 local TextHelp = [[*
 • اوامر مطور البوت •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • حظر •
 • كتم •
 • المحظورين •
@@ -15619,7 +15605,7 @@ local TextHelp = [[*
 • مسح الردود المضافه •
 • الردود المضافه •
 • بوت غادر •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •??﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ??﴿⊷┉┉┉༻
 ??• الحمايه •
 • اعدادات الحمايه •
 • الاعدادات •
@@ -15631,7 +15617,7 @@ local TextHelp = [[*
 • المدراء •
 • الادمنيه •
 • المميزين •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • رفع + تنزيل •
 • مالك •
 • منشئ اساسي •
@@ -15640,7 +15626,7 @@ local TextHelp = [[*
 • مشرف •
 • ادمن •
 • مميز •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • اضف رد عام •
 • مسح رد عام •
 • الردود العامه •
@@ -15649,7 +15635,7 @@ local TextHelp = [[*
 • اذاعه خاص •
 • اذاعه بالتوجيه •
 • اذاعه بالتوجيه خاص •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
 end
@@ -15669,13 +15655,13 @@ data = {
 {text = '• القائمه الرئيسيه •', data = IdUser..'/helpall'},
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
 local TextHelp = [[*
 • اوامر مطور ثانوي البوت •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • رفع مطور •
 • تنزيل مطور •
 • المطورين •
@@ -15688,7 +15674,7 @@ local TextHelp = [[*
 • مسح المكتومين •
 • غادر •
 • الاحصائيات •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • تفعيل الردود العامه •
 • تعطيل الردود العامه •
 • اضف رد متعدد •
@@ -15696,7 +15682,7 @@ local TextHelp = [[*
 • الردود المتعدد •
 • اضف رد •
 • مسح رد •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • اضف رد عام •
 • مسح رد عام •
 • الردود العامه •
@@ -15705,7 +15691,7 @@ local TextHelp = [[*
 • اذاعه خاص •
 • اذاعه بالتوجيه •
 • اذاعه بالتوجيه خاص •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
 end
@@ -15725,13 +15711,13 @@ data = {
 {text = '• القائمه الرئيسيه •', data = IdUser..'/helpall'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
 local TextHelp = [[*
 • اوامر مطور البوت الاساسي •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • حظر عام •
 • كتم عام •
 • قائمه العام •
@@ -15741,7 +15727,7 @@ local TextHelp = [[*
 • الثانوين •
 • مسح الثانوين •
 • تحديث الملفات •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • تحديث السورس •
 • تفعيل البوت الخدمي •
 • تعيطل البوت الخدمي •
@@ -15752,7 +15738,7 @@ local TextHelp = [[*
 • تنزيل مطور •
 • رفع مطور ثانوي •
 • تنزيل مطور ثانوي •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • تفعيل الردود العامه •
 • تعطيل الردود العامه •
 • اضف رد متعدد •
@@ -15763,7 +15749,7 @@ local TextHelp = [[*
 • اضف رد عام •
 • مسح رد عام •
 • الردود العامه •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
  • الملفات •
 • مسح جميع الملفات •
 • المتجر •
@@ -15775,7 +15761,7 @@ local TextHelp = [[*
 • اذاعه خاص •
 • اذاعه بالتوجيه •
 • اذاعه بالتوجيه خاص •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
 end
@@ -15789,7 +15775,7 @@ data = {
 {text = 'العاب متطورة ', data = IdUser..'/degm'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 't.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 't.me/MEG0OL'}, 
 },
 }
 }
@@ -15829,7 +15815,7 @@ data = {
 {{text = 'SpaceTraveler', url="https://t.me/gamee?game=SpaceTraveler"},{text = 'RedAndBlue', url="https://t.me/gamee?game=RedAndBlue"}},  
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
-{{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 't.me/MEG0OL'}},
+{{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 't.me/MEG0OL'}},
 {{text = 'القائمه الرئيسيه', data = IdUser..'/help6'}},
 }
 }
@@ -15855,7 +15841,7 @@ data = {
 {text = '•❺•', data = IdUser..'/listallAddorrem'}, {text = '•❻•', data = IdUser..'/NoNextSeting'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
@@ -15924,13 +15910,13 @@ data = {
 {text = '•❺•', data = IdUser..'/listallAddorrem'}, {text = '•❻•', data = IdUser..'/NoNextSeting'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
 local TextHelp = [[*
 • اوامر الاعضاء •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • اسمي •
 • صورتي •
 • رتبتي •
@@ -15943,7 +15929,7 @@ local TextHelp = [[*
 • هل تعلم •
 • صراحه •
 • نسبه جمالي •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • نسبه الحب •
 • نسبه الكره •
 • نسبه الرجوله •
@@ -15955,7 +15941,7 @@ local TextHelp = [[*
 • المطور •
 • كشف •
 • الرابط •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 • بوت حذف •
 • روابط حذف •
 • رسائلي •
@@ -15968,7 +15954,7 @@ local TextHelp = [[*
 • كتبات •
 • غنيلي •
 • مستقبلي •
-༺┉┉┉⊶﴾• 𝑴𝑬𝑮𝒁𝒁 •﴿⊷┉┉┉༻
+༺┉┉┉⊶﴾ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ﴿⊷┉┉┉༻
 *]]
 LuaTele.editMessageText(ChatId,Msg_id,TextHelp, 'md', true, false, reply_markup)
 end
@@ -16025,7 +16011,7 @@ data = {
 {text = '•❺•', data = IdUser..'/listallAddorrem'}, {text = '•❻•', data = IdUser..'/NoNextSeting'}, 
 },
 {
-{text = '• 𝑴𝑬𝑮𝒁𝒁 •', url = 'https://t.me/MEG0OL'}, 
+{text = 'ՏOᑌᖇᑕᗴ ᗰᗩᗴᘜᘔᘔ', url = 'https://t.me/MEG0OL'}, 
 },
 }
 }
